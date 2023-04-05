@@ -4,18 +4,20 @@ import Home from './Components/Home';
 import Navbar from './Components/NavBar';
 import Skills from './Components/Skills';
 import Work from './Components/Work';
-import data from './data/data'
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <About/>
       <Contact/>
       <Home/>
-      <Navbar/>
+      
       <Skills/>
       <Work/>
+      
      
     </div>
   );
